@@ -1,0 +1,7 @@
+.footer {
+    grid-column: 1 / 5;
+    background: #fff;
+    height: 55px;
+    margin-left: 140px;
+    margin-right: 140px;
+}

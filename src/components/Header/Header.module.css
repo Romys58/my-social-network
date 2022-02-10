@@ -1,0 +1,5 @@
+.header {
+    height: 55px;
+    background: #fff;
+    grid-column: 1 / 5;
+}
