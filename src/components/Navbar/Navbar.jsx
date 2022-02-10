@@ -1,34 +1,35 @@
 import style from "./Navbar.module.css";
+import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
         <div className={style.navbar}>
             <div className={style.navLink}>
-                <a href="#" className={style.link}>My profile</a>
+                <Link to="/profile">My profile</Link>
                 </div>
             <div className={style.navLink}>
-                <a href="#" className={style.link}>News</a>
+                <Link to="/news">News</Link>
                 </div>
             <div className={style.navLink}>
-                <a href="#" className={style.link}>Messenger</a>
+                <Link to="/messenger">Messenger</Link>
                 </div>
             <div className={style.navLink}>
-                <a href="#" className={style.link}>Friends</a>
+                <Link to="/friends">Friends</Link>
                 </div>
             <div className={style.navLink}>
-                <a href="#" className={style.link}>Communities</a>
+                <Link to="/commuties">Communities</Link>
                 </div>
             <div className={style.navLink}>
-                <a href="#" className={style.link}>Photos</a>
+                <Link to="/photos">Photos</Link>
                 </div>
             <div className={style.navLink}>
-                <a href="#" className={style.link}>Music</a>
+                <Link to="/music">Music</Link>
                 </div>
             <div className={style.navLink}>
-                <a href="#" className={style.link}>Videos</a>
+                <Link to="/videos">Videos</Link>
                 </div>
             <div className={style.navLink}>
-                <a href="#" className={style.link}>Settings</a>
+                <Link to="/settings">Settings</Link>
             </div>
         </div>
     );
