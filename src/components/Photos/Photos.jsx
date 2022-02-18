@@ -1,11 +1,12 @@
 import style from "./Photos.module.css";
+import React from "react"; 
 
-function Photos() {
+const Photos = () => {
     return(
         <div className={style.photos}>
-            News
+            photos
         </div>
-    );
+    )
 }
 
 export default Photos;

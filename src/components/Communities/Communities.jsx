@@ -1,11 +1,12 @@
 import style from "./Communities.module.css";
+import React from "react"; 
 
-function Communities() {
+const Communities = () => {
     return(
         <div className={style.communities}>
-            Communiti
+            comminities
         </div>
-    );
+    )
 }
 
 export default Communities;

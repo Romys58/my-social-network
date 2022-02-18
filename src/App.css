@@ -4,3 +4,13 @@
     grid-gap: 17px;
     background: #edeef0;
 }
+
+
+.add-wrapper-app {
+    grid-column: 2 / 5;
+    height: 90vh;
+    width: auto;
+    background:#ffffff;
+    margin-right: 280px;
+    border-radius: 3px;
+}

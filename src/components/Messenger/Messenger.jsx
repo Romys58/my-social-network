@@ -1,9 +1,10 @@
 import style from "./Messenger.module.css";
+import React from "react";
 
-function Messenger() {
+const Messenger = () => {
     return(
         <div className={style.messenger}>
-            Messenger
+            Messenger statusdsf off
         </div>
     );
 }

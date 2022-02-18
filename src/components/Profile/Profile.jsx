@@ -1,9 +1,11 @@
 import style from "./Profile.module.css";
+import React from "react";
 
-function Profile() {
+const Profile = () => {
     return(
         <div className={style.profile}>
-
+            
+            <button>dsfdsfdasds</button>
         </div>
     );
 }

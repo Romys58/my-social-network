@@ -1,36 +1,42 @@
 import style from "./Navbar.module.css";
-import {Link} from 'react-router-dom'
+import React from "react";
+import {NavLink} from "react-router-dom";
 
-function Navbar() {
+
+
+const Navbar = () => {
     return (
         <div className={style.navbar}>
-            <div className={style.navLink}>
-                <Link to="/profile">My profile</Link>
-                </div>
-            <div className={style.navLink}>
-                <Link to="/news">News</Link>
-                </div>
-            <div className={style.navLink}>
-                <Link to="/messenger">Messenger</Link>
-                </div>
-            <div className={style.navLink}>
-                <Link to="/friends">Friends</Link>
-                </div>
-            <div className={style.navLink}>
-                <Link to="/commuties">Communities</Link>
-                </div>
-            <div className={style.navLink}>
-                <Link to="/photos">Photos</Link>
-                </div>
-            <div className={style.navLink}>
-                <Link to="/music">Music</Link>
-                </div>
-            <div className={style.navLink}>
-                <Link to="/videos">Videos</Link>
-                </div>
-            <div className={style.navLink}>
-                <Link to="/settings">Settings</Link>
+            <div className={style.item}>
+                   <NavLink to="/profile">My profile</NavLink>
             </div>
+            <div className={style.item}>
+                   <NavLink to="/news">News</NavLink>
+            </div>
+            <div className={style.item}>
+                   <NavLink to="/messenger">Messenger</NavLink>
+            </div>
+            <div className={style.item}>
+                   <NavLink to="/friends">Friends</NavLink>
+            </div>
+            <div className={style.item}>
+                   <NavLink to="/communities">Communities</NavLink>
+            </div>
+            <div className={style.item}>
+                   <NavLink to="/photos">Photos</NavLink>
+            </div>
+            <div className={style.item}>
+                   <NavLink to="/music">Music</NavLink>
+            </div>
+            <div className={style.item}>
+                   <NavLink to="/videos">Videos</NavLink>
+            </div>
+            <div className={style.item}>
+                   <NavLink to="/settings">Settings</NavLink>
+            </div>
+            
+               
+                
         </div>
     );
 }
