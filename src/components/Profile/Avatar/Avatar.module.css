@@ -1,0 +1,25 @@
+.avatar {
+    border-radius: 4px;
+    grid-column: 1 / 2;
+    background: #fff;
+    width: 225px;
+    min-height: 300px;
+}
+
+.img {
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    padding: 12px;
+}
+
+.avatar_button {
+    border-radius: 4px;
+    border: none;
+    background: #e5ebf1;
+    color: #55687d;
+    cursor: pointer;
+    margin-left: 12px;
+    width: 200px;
+    height: 30px;
+}

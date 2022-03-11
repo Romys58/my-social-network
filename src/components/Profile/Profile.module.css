@@ -1,4 +1,27 @@
 .profile {
-    color: red;
-    font-size: 100px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10px;
+    background: #edeef0;
+}
+
+
+.info_page {
+    border-radius: 4px;
+    grid-column: 2 / 3;
+    background: #fff;
+    width: 545px;
+    min-height: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.description {
+    width: 100%;
+    border-bottom: 2px solid silver;
+}
+
+.description h1 {
+    font-size: 20px;
+    font-weight: 400;
 }
