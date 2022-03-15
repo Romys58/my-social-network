@@ -4,6 +4,7 @@
     background: #fff;
     width: 225px;
     min-height: 300px;
+    box-shadow: 0 0 3px silver;
 }
 
 .img {

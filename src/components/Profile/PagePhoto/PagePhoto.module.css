@@ -1,0 +1,37 @@
+.page_photo {
+    grid-column: 2 / 3;
+    background: #fff;
+    width: 100%;
+    min-height: 190px;
+    margin-top: -70px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px silver;
+}
+
+.h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: darkgray;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: darkgray;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: -33px;
+    cursor: pointer;
+}
+
+.img {
+    margin-left: 40%;
+    width: 123px;
+    height: 123px;
+}
+
+.img:hover {
+    opacity: 80%;
+    cursor: pointer;
+}

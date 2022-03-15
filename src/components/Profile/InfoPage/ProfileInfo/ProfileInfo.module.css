@@ -1,0 +1,18 @@
+.profile_info {
+    width: 100%;
+    min-height: 70px;
+    border-bottom: 1px solid silver;
+}
+
+.info_section {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.info_section_two {
+    font-size: 14px;
+    margin-left: 170px;
+    margin-top: -160px;
+    color: #3e6cae;
+}

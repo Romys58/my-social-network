@@ -1,6 +1,5 @@
 import './App.css';
 import React from "react";
-import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 
@@ -42,7 +41,6 @@ const App = () => {
             <Route path="/settings" exact element={<Settings />} />
           </Routes>
         </div>
-        <Footer />
       </div>
     </Router>
   );
