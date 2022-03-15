@@ -5,6 +5,30 @@
     background: #edeef0;
 }
 
+.my_posts {
+    grid-column: 2 / 3;
+    width: 100%;
+    min-height: 150px;
+    background: #fff;
+    border-radius: 4px; 
+    box-shadow: 0 0 3px silver;
+}
+.area {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 19px;
+    box-shadow: 3px 5px 3px silver;
+    border-radius: 4px;
+    border: 1px solid silver;
+
+
+
+    overflow: auto;
+    outline: none;
+    resize: none;
+}
+
 
 
 

@@ -13,6 +13,9 @@ const Profile = () => {
             <InfoPage />
             <PagePhoto />
             <Gifts />
+            <div className={style.my_posts}>
+                <textarea placeholder="What's new?" className={style.area}></textarea>
+            </div>
         </div>
     );
 }
