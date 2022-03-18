@@ -5,6 +5,7 @@ import InfoPage from "./InfoPage/InfoPage";
 import PagePhoto from "./PagePhoto/PagePhoto";
 import Gifts from "./Gifts/Gifts";
 import MyPosts from "./MyPosts/MyPosts";
+import PageFriends from "./PageFriends/PageFriends";
 
 
 const Profile = () => {
@@ -15,6 +16,7 @@ const Profile = () => {
             <PagePhoto />
             <Gifts />
             <MyPosts />
+            <PageFriends />
         </div>
     );
 }
