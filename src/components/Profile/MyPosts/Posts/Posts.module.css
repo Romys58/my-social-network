@@ -1,0 +1,30 @@
+
+
+.posts {
+    width: 99.8%;
+    min-height: 80px;
+    border-top: 1px solid silver;
+    cursor: pointer;
+}
+
+.posts:hover {
+    background: #aeb7c21f;
+}
+
+.img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.p {
+    float: right;
+    margin-right: 120px;
+    padding-top: 25px;
+}
+
+.nickname {
+    margin-left: 20px;
+    margin-top: 10px;
+}

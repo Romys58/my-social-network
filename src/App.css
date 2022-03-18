@@ -8,9 +8,10 @@
 
 .add-wrapper-app {
     grid-column: 2 / 5;
-    height: 90vh;
+    min-height: 90vh;
     width: auto;
     background: #edeef0;
     margin-right: 280px;
     border-radius: 3px;
+    margin-bottom: 20px;
 }

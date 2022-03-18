@@ -4,6 +4,7 @@ import Avatar from "./Avatar/Avatar";
 import InfoPage from "./InfoPage/InfoPage";
 import PagePhoto from "./PagePhoto/PagePhoto";
 import Gifts from "./Gifts/Gifts";
+import MyPosts from "./MyPosts/MyPosts";
 
 
 const Profile = () => {
@@ -13,9 +14,7 @@ const Profile = () => {
             <InfoPage />
             <PagePhoto />
             <Gifts />
-            <div className={style.my_posts}>
-                <textarea placeholder="What's new?" className={style.area}></textarea>
-            </div>
+            <MyPosts />
         </div>
     );
 }
