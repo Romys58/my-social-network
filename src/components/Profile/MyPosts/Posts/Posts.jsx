@@ -2,17 +2,19 @@ import React from "react";
 import style from "./Posts.module.css";
 
 
-const Posts = () => {
+const Posts = (props) => {
     return (
-        <div className={style.posts_wrapper}>
-            <div className={style.posts}>
-                <div className={style.nickname}>
-                    Andrei
-                </div>
-                <img className={style.img} src="./icons/post_camera.png" />
-                    <p className={style.p}>Hello, here i am learning React way of the samurai</p>
+        <div className={style.posts}>
+            <img className={style.img} src="./icons/camera.png" />
+            <div className={style.post_message}>
+                {props.message}
+            </div>
+            <div className={style.like_counter}>
+                Like {props.like}
             </div>
         </div>
+
+
     );
 }
 

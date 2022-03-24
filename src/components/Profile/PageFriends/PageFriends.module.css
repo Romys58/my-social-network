@@ -1,14 +1,14 @@
 .friends {
     grid-column: 1 / 2;
-    width: 100%;
+    max-width: 100%;
     height: 150px;
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 0 3px silver;
-    margin-top: -697px;
+    margin-top: -465px;
 }
 
 .img {
-    width: 10px;
+    max-width: 10px;
     height: 10px;
 }
