@@ -22,16 +22,3 @@
     border-radius: 4px;
     margin-top: 10px;
 }
-
-.dialog {
-    display: block;
-    max-width: 100%;
-    max-height: 45px;
-    cursor: pointer;
-
-    padding: 15px 15px ;
-}
-
-.dialog:hover {
-    background: #aeb7c21f;
-}
