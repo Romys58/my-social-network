@@ -1,0 +1,12 @@
+.dialog_content {
+    grid-column: 2 / 3;
+}
+
+.item {
+    cursor: pointer;
+    padding: 15px;
+}
+
+.item:hover {
+    background: #aeb7c21f;
+}

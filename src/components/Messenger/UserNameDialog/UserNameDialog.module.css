@@ -4,12 +4,12 @@
 
 .item {
     display: block;
-    padding-left: 15px;
+    padding: 15px;
     cursor: pointer;
 }
 
 .item:hover {
-    background: red;
+    background: #aeb7c21f;
 }
 
 .link {
