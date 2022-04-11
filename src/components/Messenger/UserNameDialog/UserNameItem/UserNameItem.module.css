@@ -1,0 +1,14 @@
+.item {
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background: #aeb7c21f;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}

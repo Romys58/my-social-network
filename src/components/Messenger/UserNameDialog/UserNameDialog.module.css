@@ -2,18 +2,3 @@
     grid-column: 1 / 2;
     border-right: 2px solid silver;
 }
-
-.item {
-    display: block;
-    padding: 15px;
-    cursor: pointer;
-}
-
-.item:hover {
-    background: #aeb7c21f;
-}
-
-.link {
-    text-decoration: none;
-    color: #000;
-}
