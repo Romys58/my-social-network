@@ -30,15 +30,15 @@ const App = () => {
         <Navbar />
         <div className="add-wrapper-app">
           <Routes>
-            <Route path="/profile" exact element={<Profile />} />
-            <Route path="/news" exact element={<News />} />
-            <Route path="/messenger" exact element={<Messenger />} />
-            <Route path="/friends" exact element={<Friends />} />
-            <Route path="/communities" exact element={<Communities />} />
-            <Route path="/photos" exact element={<Photos />} />
-            <Route path="/music" exact element={<Music />} />
-            <Route path="/videos" exact element={<Videos />} />
-            <Route path="/settings" exact element={<Settings />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/messenger" element={<Messenger />} />
+            <Route path="/friends" element={<Friends />} />
+            <Route path="/communities" element={<Communities />} />
+            <Route path="/photos" element={<Photos />} />
+            <Route path="/music" element={<Music />} />
+            <Route path="/videos" element={<Videos />} />
+            <Route path="/settings" element={<Settings />} />
           </Routes>
         </div>
       </div>

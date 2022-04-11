@@ -1,13 +1,10 @@
 import style from "./Navbar.module.css";
 import React from "react";
-import { NavLink } from "react-router-dom";
-
-
+import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
        return (
               <div className={style.navbar}>
-
                      <div className={style.item}>
                             <NavLink className={style.link} to="/profile">
                                    <img className={style.img} src="./icons/profile.svg" />My profile

@@ -7,28 +7,28 @@ const UserNameDialog = () => {
     return(
         <div className={style.user_name_dialog}>
                         <div className={style.item}>
-                            <NavLink className={style.link} to="1">Dmitry</NavLink>
+                            <NavLink className={style.link} to="/1">Dmitry</NavLink>
                         </div>
                         <div className={style.item}>
-                            <NavLink className={style.link} to="1">Sveta</NavLink>
+                            <NavLink className={style.link} to="/2">Sveta</NavLink>
                         </div>
                         <div className={style.item}>
-                            <NavLink className={style.link} to="1">Andrey</NavLink>
+                            <NavLink className={style.link} to="/3">Andrey</NavLink>
                         </div>
                         <div className={style.item}>
-                            <NavLink className={style.link} to="1">Kirill</NavLink>
+                            <NavLink className={style.link} to="/4">Kirill</NavLink>
                         </div>
                         <div className={style.item}>
-                            <NavLink className={style.link} to="1">Evgeniy</NavLink>
+                            <NavLink className={style.link} to="/5">Evgeniy</NavLink>
                         </div>
                         <div className={style.item}>
-                            <NavLink className={style.link} to="1">Anton</NavLink>
+                            <NavLink className={style.link} to="/6">Anton</NavLink>
                         </div>
                         <div className={style.item}>
-                            <NavLink className={style.link} to="1">Kostya</NavLink>
+                            <NavLink className={style.link} to="/7">Kostya</NavLink>
                         </div>
                         <div className={style.item}>
-                            <NavLink className={style.link} to="1">Olya</NavLink>
+                            <NavLink className={style.link} to="/8">Olya</NavLink>
                         </div>
                     </div>
     );
