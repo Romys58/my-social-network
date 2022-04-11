@@ -1,0 +1,19 @@
+.tab {
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #55687d;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.counter {
+    color: #55687d;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}

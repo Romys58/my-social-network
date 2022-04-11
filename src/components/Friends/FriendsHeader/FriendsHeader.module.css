@@ -1,0 +1,23 @@
+.friends__header {
+    grid-column: 1 / 2;
+    box-shadow: 0 0 3px silver;
+    border-radius: 4px 4px 0px 0px;
+    background: #fff;
+    height: 50px;
+    width: 100%;
+
+}
+
+.friends__button {
+    width: 100px;
+    height: 26px;
+    background: #5181b8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    float: right;
+    margin-right: 20px;
+    margin-top: 12px;
+}
