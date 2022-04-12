@@ -1,0 +1,10 @@
+.friends__list {
+    grid-column: 1 / 2;
+    width: 100%;
+    min-height: 600px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 3px silver;
+    margin-top: 10px;
+}
+

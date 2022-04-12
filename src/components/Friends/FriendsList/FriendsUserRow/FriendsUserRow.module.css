@@ -1,0 +1,32 @@
+.friends__user__row {
+    width: 90%;
+    min-height: 100px;
+    border-bottom: 1px solid silver;
+
+    margin-left: 25px;
+}
+
+.friends__name {
+    color: #43678e;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-top: 35px;
+}
+
+.friends__info {
+    color: slategrey;
+    font-size: 12px;
+    font-weight: 400;
+
+    padding-left: 80px;
+}
+
+.friends__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+    margin-top: -55px;
+
+}
