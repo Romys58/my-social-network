@@ -1,67 +1,36 @@
 import style from "./Navbar.module.css";
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import NavbarItem from "./NavbarItem/NavbarItem";
+
+
+const navbarItemData = [
+       { path: "/profile", img: "./icons/profile.svg", text: "Profile" },
+       { path: "/news", img: "./icons/news.svg", text: "News" },
+       { path: "/messenger", img: "./icons/messenger.svg", text: "Messenger" },
+       { path: "/friends", img: "./icons/friends.svg", text: "Friends" },
+       { path: "/communities", img: "./icons/communities.svg", text: "Communities" },
+       { path: "/photos", img: "./icons/photos.svg", text: "Photos" },
+       { path: "/music", img: "./icons/music.svg", text: "Music" },
+       { path: "/videos", img: "./icons/videos.svg", text: "Videos" },
+       { path: "/settings", img: "./icons/settings.svg", text: "Settings" },
+]
+
 
 const Navbar = () => {
        return (
               <div className={style.navbar}>
-                     <div className={style.item}>
-                            <NavLink className={style.link} to="/profile">
-                                   <img className={style.img} src="./icons/profile.svg" />My profile
-                            </NavLink>
-                     </div>
-
-                     <div className={style.item}>
-                            <NavLink className={style.link} to="/news">
-                                   <img className={style.img} src="./icons/news.svg" />News
-                            </NavLink>
-                     </div>
-
-                     <div className={style.item}>
-                            <NavLink className={style.link} to="/messenger">
-                                   <img className={style.img} src="./icons/messenger.svg" />Messenger
-                            </NavLink>
-                     </div>
-
-                     <div className={style.item}>
-                            <NavLink className={style.link} to="/friends">
-                                   <img className={style.img} src="./icons/friends.svg" />Friends
-                            </NavLink>
-                     </div>
-
-                     <div className={style.item}>
-                            <NavLink className={style.link} to="/communities">
-                                   <img className={style.img} src="./icons/communities.svg" />Communities
-                            </NavLink>
-                     </div>
-
-                     <div className={style.item}>
-                            <NavLink className={style.link} to="/photos">
-                                   <img className={style.img} src="./icons/photos.svg" />Photos
-                            </NavLink>
-                     </div>
-
-                     <div className={style.item}>
-                            <NavLink className={style.link} to="/music">
-                                   <img className={style.img} src="./icons/music.svg" />Music
-                            </NavLink>
-                     </div>
-
-                     <div className={style.item}>
-                            <NavLink className={style.link} to="/videos">
-                                   <img className={style.img} src="./icons/videos.svg" />Videos
-                            </NavLink>
-                     </div>
-
-                     <div className={style.item}>
-                            <NavLink className={style.link} to="/settings">
-                                   <img className={style.img} src="./icons/settings.svg" />Settings
-                            </NavLink>
-                     </div>
-
-
+                     <NavbarItem path={navbarItemData [0].path} img={navbarItemData [0].img} text={navbarItemData [0].text} />
+                     <NavbarItem path={navbarItemData [1].path} img={navbarItemData [1].img} text={navbarItemData [1].text} />
+                     <NavbarItem path={navbarItemData [2].path} img={navbarItemData [2].img} text={navbarItemData [2].text} />
+                     <NavbarItem path={navbarItemData [3].path} img={navbarItemData [3].img} text={navbarItemData [3].text} />
+                     <NavbarItem path={navbarItemData [4].path} img={navbarItemData [4].img} text={navbarItemData [4].text} />
+                     <NavbarItem path={navbarItemData [5].path} img={navbarItemData [5].img} text={navbarItemData [5].text} />
+                     <NavbarItem path={navbarItemData [6].path} img={navbarItemData [6].img} text={navbarItemData [6].text} />
+                     <NavbarItem path={navbarItemData [7].path} img={navbarItemData [7].img} text={navbarItemData [7].text} />
+                     <NavbarItem path={navbarItemData [8].path} img={navbarItemData [8].img} text={navbarItemData [8].text} />
               </div>
        );
 }
+
 
 export default Navbar;

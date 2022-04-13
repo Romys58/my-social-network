@@ -2,6 +2,7 @@ import React from "react";
 import style from "./FriendsHeader.module.css";
 import Tabs from "./Tabs/Tabs";
 
+
 // счетчик на вкладке friends {All Friends and Online friends} //
 const tabsData = [
     {id: "1", counter: "36", text: "All friends"},
