@@ -1,5 +1,6 @@
 .dialog_content {
     grid-column: 2 / 3;
+    max-height: 100px;
 }
 
 .item {
