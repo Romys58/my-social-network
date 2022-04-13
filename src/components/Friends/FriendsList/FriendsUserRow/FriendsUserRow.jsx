@@ -11,7 +11,7 @@ const FriendsUserRow = (props) => {
                     <div className={style.friends__info}>
                         {props.info}
                     </div>
-                    <img className={style.friends__img} src="/icons/camera.png" />
+                    <img className={style.friends__img} src={props.img} />
                 </div>
     );
 }
