@@ -30,7 +30,7 @@ const Aside = () => {
                 <AsideNavbar id={asideItemData [5].id} text={asideItemData [5].text} />
                 <AsideNavbar id={asideItemData [6].id} text={asideItemData [6].text} />
                 <AsideNavbar id={asideItemData [7].id} text={asideItemData [7].text} />
-
+                <span><hr /></span>
                 <AsideNavbar id={asideItemData [8].id} text={asideItemData [8].text} />
                 <AsideNavbar id={asideItemData [9].id} text={asideItemData [9].text} />
                 <AsideNavbar id={asideItemData [10].id} text={asideItemData [10].text} />
