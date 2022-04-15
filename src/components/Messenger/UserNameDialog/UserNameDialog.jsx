@@ -14,37 +14,12 @@ const userNameData = [
     { name: "Olya", id: "8" }
 ]
 
-const userNameElements = [
-                        <UserNameItem name={userNameData [0].name} id={userNameData [0].id}/>,
-                        <UserNameItem name={userNameData [1].name} id={userNameData [1].id}/>,
-                        <UserNameItem name={userNameData [2].name} id={userNameData [2].id}/>,
-                        <UserNameItem name={userNameData [3].name} id={userNameData [3].id}/>,
-                        <UserNameItem name={userNameData [4].name} id={userNameData [4].id}/>,
-                        <UserNameItem name={userNameData [5].name} id={userNameData [5].id}/>,
-                        <UserNameItem name={userNameData [6].name} id={userNameData [6].id}/>,
-                        <UserNameItem name={userNameData [7].name} id={userNameData [7].id}/>
-]
-
+const newUserNameData = userNameData.map( userElement => <UserNameItem name={userElement.name} id={userElement.id}/> )
 
 const UserNameDialog = () => {
     return (
         <div className={style.user_name_dialog}>
-
-
-
-            { userNameElements }
-
-
-
-
-            {/* <UserNameItem name={userNameData [0].name} id={userNameData [0].id} />
-                        <UserNameItem name={userNameData [1].name} id={userNameData [1].id}/>
-                        <UserNameItem name={userNameData [2].name} id={userNameData [2].id}/>
-                        <UserNameItem name={userNameData [3].name} id={userNameData [3].id}/>
-                        <UserNameItem name={userNameData [4].name} id={userNameData [4].id}/>
-                        <UserNameItem name={userNameData [5].name} id={userNameData [5].id}/>
-                        <UserNameItem name={userNameData [6].name} id={userNameData [6].id}/>
-                        <UserNameItem name={userNameData [7].name} id={userNameData [7].id}/> */}
+            { newUserNameData }
         </div>
     );
 }

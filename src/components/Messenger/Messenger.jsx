@@ -15,6 +15,8 @@ const dialogContentData = [
     {message: "Yes, I will go there"},
 ]
 
+const newDialogElement = dialogContentData.map( dialogContentElement => <DialogContent message={dialogContentElement.message}/>)
+
 
 const Messenger = () => {
     return (
@@ -23,14 +25,7 @@ const Messenger = () => {
 
             <div className={style.dialog_window}>
                 <UserNameDialog />
-                <DialogContent message={dialogContentData [0].message} />
-                <DialogContent message={dialogContentData [1].message} />
-                <DialogContent message={dialogContentData [2].message} />
-                <DialogContent message={dialogContentData [3].message} />
-                <DialogContent message={dialogContentData [4].message} />
-                <DialogContent message={dialogContentData [5].message} />
-                <DialogContent message={dialogContentData [6].message} />
-                <DialogContent message={dialogContentData [7].message} />
+                {newDialogElement}
             </div>
 
         </div>
