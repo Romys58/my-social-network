@@ -23,3 +23,8 @@
 
     margin-top: 10px;
 }
+
+.user_name_dialog {
+    grid-column: 1 / 2;
+    border-right: 2px solid silver;
+}

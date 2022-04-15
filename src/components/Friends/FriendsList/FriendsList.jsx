@@ -15,26 +15,14 @@ const friendsUserRowData = [
     { img: "/icons/camera.png" } // Avatar friends
 ]
 
+const newUserRowData = friendsUserRowData.map(userRowElement => <FriendsUserRow name={userRowElement.name}
+    info={userRowElement.info} img={userRowElement.img} />)
+
 
 const FriendsList = () => {
     return (
         <div className={style.friends__list}>
-            <FriendsUserRow name={friendsUserRowData[0].name} info={friendsUserRowData[0].info}
-                img={friendsUserRowData[8].img} />
-            <FriendsUserRow name={friendsUserRowData[1].name} info={friendsUserRowData[1].info}
-                img={friendsUserRowData[8].img} />
-            <FriendsUserRow name={friendsUserRowData[2].name} info={friendsUserRowData[2].info}
-                img={friendsUserRowData[8].img} />
-            <FriendsUserRow name={friendsUserRowData[3].name} info={friendsUserRowData[3].info}
-                img={friendsUserRowData[8].img} />
-            <FriendsUserRow name={friendsUserRowData[4].name} info={friendsUserRowData[4].info}
-                img={friendsUserRowData[8].img} />
-            <FriendsUserRow name={friendsUserRowData[5].name} info={friendsUserRowData[5].info}
-                img={friendsUserRowData[8].img} />
-            <FriendsUserRow name={friendsUserRowData[6].name} info={friendsUserRowData[6].info}
-                img={friendsUserRowData[8].img} />
-            <FriendsUserRow name={friendsUserRowData[7].name} info={friendsUserRowData[7].info}
-                img={friendsUserRowData[8].img} />
+            {newUserRowData}
         </div>
     );
 }
