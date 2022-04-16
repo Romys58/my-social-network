@@ -1,15 +1,23 @@
 import React from "react";
 import style from "./CountsModule.module.css";
+import CountsItem from "./CountsItem/CountsItem";
+
+const countsData = [
+    { id: "1", text: "followers" },
+    { id: "2", text: "friends" },
+    { id: "3", text: "photo" },
+    { id: "4", text: "music" }
+]
+
+const newCountsData = countsData
+    .map(countElement => <CountsItem id={countElement.id} text={countElement.text} />)
 
 
 const CountsModule = () => {
     return (
         <div className={style.counts_module}>
             <ul className={style.ul}>
-                <li className={style.li}><a className={style.link} href="#">followers</a></li>
-                <li className={style.li}><a className={style.link} href="#">friends</a></li>
-                <li className={style.li}><a className={style.link} href="#">photo</a></li>
-                <li className={style.li}><a className={style.link} href="#">music</a></li>
+                {newCountsData}
             </ul>
         </div>
     );

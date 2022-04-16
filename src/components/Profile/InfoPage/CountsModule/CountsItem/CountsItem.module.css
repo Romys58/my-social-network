@@ -1,0 +1,12 @@
+.li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+.link {
+    text-decoration: none;
+    color: #2a5885;
+}
+.link:hover {
+    color: silver;
+}

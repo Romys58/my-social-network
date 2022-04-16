@@ -10,6 +10,8 @@ const postsData = [
     {message: "Who want's add me friends?", like: 13},
 ]
 
+const newPostsData = postsData.map( postsElement => <Posts message={postsElement.message} like={postsElement.like} /> )
+
 
 const MyPosts = () => {
     return (
@@ -17,10 +19,7 @@ const MyPosts = () => {
             <textarea placeholder="What's new?" className={style.area}></textarea>
             <button className={style.button}>Send</button>
             <div className={style.wrapper_posts}>
-                <Posts message={postsData [0].message} like={postsData [0].like}/>
-                <Posts message={postsData [1].message} like={postsData [1].like} />
-                <Posts message={postsData [2].message} like={postsData [2].like} />
-                <Posts message={postsData [3].message} like={postsData [3].like}/>
+                {newPostsData}
             </div>
         </div>
     );

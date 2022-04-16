@@ -9,12 +9,13 @@ const tabsData = [
     {id: "2", counter: "6", text: "Friends online"}
 ]
 
+const newTabsData = tabsData
+.map( tabsElement => <Tabs id={tabsElement.id} counter={tabsElement.counter} text={tabsElement.text} /> )
 
 const FriendsHeader = () => {
     return(
         <div className={style.friends__header}>
-                <Tabs id={tabsData [0].id} counter={tabsData [0].counter} text={tabsData [0].text} />
-                <Tabs id={tabsData [1].id} counter={tabsData [1].counter} text={tabsData [1].text} />
+                {newTabsData}
                 <button className={style.friends__button}>Find friends</button>
             </div >
     );
