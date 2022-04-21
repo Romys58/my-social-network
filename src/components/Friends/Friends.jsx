@@ -3,16 +3,18 @@ import React from "react";
 import FriendsHeader from "./FriendsHeader/FriendsHeader";
 import FriendsList from "./FriendsList/FriendsList";
 
-const Friends = () => {
+
+
+function Friends(props) {
     return (
         <div className={style.friends}>
-            <FriendsHeader />
+            <FriendsHeader friendsTabsData={props.friendsTabsData} />
             <input className={style.friends__search} placeholder="Search friends" />
-            <FriendsList />
+            <FriendsList friendsData={props.friendsData} />
         </div>
 
 
-    )
+    );
 }
 
 export default Friends;

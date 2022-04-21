@@ -8,14 +8,16 @@ import MyPosts from "./MyPosts/MyPosts";
 import PageFriends from "./PageFriends/PageFriends";
 
 
-const Profile = () => {
+
+
+const Profile = (props) => {
     return (
         <div className={style.profile}>
             <Avatar />
             <InfoPage />
             <PagePhoto />
             <Gifts />
-            <MyPosts />
+            <MyPosts postsData={props.postsData} />
             <PageFriends />
         </div>
     );
