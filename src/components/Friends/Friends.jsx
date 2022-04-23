@@ -8,9 +8,9 @@ import FriendsList from "./FriendsList/FriendsList";
 function Friends(props) {
     return (
         <div className={style.friends}>
-            <FriendsHeader friendsTabsData={props.friendsTabsData} />
+            <FriendsHeader state={props.state.tabsData} />
             <input className={style.friends__search} placeholder="Search friends" />
-            <FriendsList friendsData={props.friendsData} />
+            <FriendsList state={props.state.friendsUserRowData} />
         </div>
 
 

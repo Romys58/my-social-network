@@ -6,9 +6,9 @@ import Tabs from "./Tabs/Tabs";
 
 
 const FriendsHeader = (props) => {
-
+    debugger;
     const newTabsData =
-        props.friendsTabsData.map(tabsElement => <Tabs id={tabsElement.id} counter={tabsElement.counter} text={tabsElement.text} />)
+        props.state.map(tabsElement => <Tabs id={tabsElement.id} counter={tabsElement.counter} text={tabsElement.text} />)
 
     return (
         <div className={style.friends__header}>

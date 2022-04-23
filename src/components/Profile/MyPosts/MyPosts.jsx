@@ -8,9 +8,8 @@ import Posts from "./Posts/Posts";
 
 
 const MyPosts = (props) => {
-
     const newPostsData =
-        props.postsData.map(postsElement => <Posts message={postsElement.message} like={postsElement.like} />)
+        props.state.map(postsElement => <Posts message={postsElement.message} like={postsElement.like} />)
 
     return (
         <div className={style.my_posts}>

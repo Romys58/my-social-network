@@ -18,7 +18,6 @@ import Settings from './components/Settings/Settings';
 
 
 
-
 const App = (props) => {
   return (
     <Router>
@@ -27,10 +26,10 @@ const App = (props) => {
         <Navbar />
         <div className="add-wrapper-app">
           <Routes>
-            <Route path="/profile" element={<Profile postsData={props.postsData} />} />
+            <Route path="/profile" element={<Profile state={props.state.profile} />} />
             <Route path="/news" element={<News />} />
-            <Route path="/messenger" element={<Messenger dialogNameData={props.dialogNameData} dialogMessageData={props.dialogMessageData} />} />
-            <Route path="/friends" element={<Friends friendsData={props.friendsData} friendsTabsData={props.friendsTabsData} />} />
+            <Route path="/messenger" element={<Messenger state={props.state.messenger} />} />
+            <Route path="/friends" element={<Friends state={props.state.friends} />} />
             <Route path="/communities" element={<Communities />} />
             <Route path="/photos" element={<Photos />} />
             <Route path="/music" element={<Music />} />

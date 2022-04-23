@@ -7,10 +7,10 @@ import UserNameItem from "./UserNameItem/UserNameItem";
 
 const Messenger = (props) => {
 
-    const newUserName = props.dialogNameData
+    const newUserName = props.state.nameData
         .map(userName => <UserNameItem name={userName.name} id={userName.id} />)
 
-    const newMessage = props.dialogMessageData
+    const newMessage = props.state.messageData
         .map(dialogElement => <DialogContent message={dialogElement.message} />)
 
     return (

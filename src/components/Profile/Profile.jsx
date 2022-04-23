@@ -17,7 +17,7 @@ const Profile = (props) => {
             <InfoPage />
             <PagePhoto />
             <Gifts />
-            <MyPosts postsData={props.postsData} />
+            <MyPosts state={props.state.postsData} />
             <PageFriends />
         </div>
     );

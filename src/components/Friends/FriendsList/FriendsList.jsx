@@ -6,7 +6,7 @@ import FriendsUserRow from "./FriendsUserRow/FriendsUserRow";
 
 const FriendsList = (props) => {
 
-    const newUserRowData = props.friendsData.map(userRowElement => <FriendsUserRow name={userRowElement.name}
+    const newUserRowData = props.state.map(userRowElement => <FriendsUserRow name={userRowElement.name}
         info={userRowElement.info} img={userRowElement.img} />)
 
     return (
