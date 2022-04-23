@@ -155,6 +155,30 @@ const state = {
         ],
     },
 
+    news: {
+        storiesData: [
+            { img: "/icons/camera.png", name: "Andrey" },
+            { img: "/icons/camera.png", name: "Anastasia" },
+            { img: "/icons/camera.png", name: "Petr" },
+            { img: "/icons/camera.png", name: "Olya" },
+            { img: "/icons/camera.png", name: "Fedya" },
+        ],
+
+        asideItemData: [
+            { id: "1", text: "News" },
+            { id: "2", text: "Photos" },
+            { id: "3", text: "Videos" },
+            { id: "4", text: "Podcasts" },
+            { id: "5", text: "Coronavirus" },
+            { id: "6", text: "Football" },
+            { id: "7", text: "Recommended" },
+            { id: "8", text: "Search" },
+            { id: "9", text: "Reactions" },
+            { id: "10", text: "Updates" },
+            { id: "11", text: "Comments" },
+        ],
+
+    },
 
 
 
