@@ -3,10 +3,12 @@
     margin-left: 25px;
     padding-left: 25px;
 }
-.link {
+
+.link, .counter {
     text-decoration: none;
+    text-align: center;
     color: #2a5885;
 }
-.link:hover {
-    color: silver;
-}
+
+
+

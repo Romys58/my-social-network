@@ -5,12 +5,12 @@ import style from "./InfoPage.module.css";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 
-const InfoPage = () => {
+const InfoPage = (props) => {
     return(
         <div className={style.info_page}>
                 <Description />
                 <ProfileInfo />
-                <CountsModule />
+                <CountsModule state={props.state} />
             </div>
     );
 }

@@ -5,9 +5,12 @@ import { NavLink } from "react-router-dom";
 
 const CountsItem = (props) => {
     return (
-        <li className={style.li}>
-            <NavLink className={style.link} to={props.id}>{props.text}</NavLink>
-        </li>
+        <div className={style.li}>
+            <NavLink className={style.link} to={props.id}>
+                {props.text}<div className={style.counter}>{props.counter}</div>
+            </NavLink>
+        </div>
+
     );
 }
 

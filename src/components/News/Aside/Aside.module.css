@@ -1,12 +1,12 @@
 .aside {
-    grid-column: 2 / 3;
+    
     width: 230px;
     max-height: 370px;
     background: #fff;
     box-shadow: 0 0 3px silver;
     border-radius: 4px;
 
-    margin-top: -67px;
+    
 }
 
 .aside_navbar {

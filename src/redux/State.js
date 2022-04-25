@@ -153,6 +153,13 @@ const state = {
                 like: 13
             },
         ],
+        
+        countsData: [
+            { id: "1", text: "followers", counter: "29" },
+            { id: "2", text: "friends", counter: "114" },
+            { id: "3", text: "photo", counter: "1" },
+            { id: "4", text: "music", counter: "2390" }
+        ],
     },
 
     news: {

@@ -7,7 +7,7 @@
 
 .add-wrapper-app {
     grid-column: 2 / 5;
-    min-height: 90vh;
+    height: 100%;
     width: auto;
     background: #edeef0;
     margin-right: 280px;

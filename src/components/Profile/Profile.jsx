@@ -14,7 +14,7 @@ const Profile = (props) => {
     return (
         <div className={style.profile}>
             <Avatar />
-            <InfoPage />
+            <InfoPage state={props.state.countsData} />
             <PagePhoto />
             <Gifts />
             <MyPosts state={props.state.postsData} />
