@@ -1,16 +1,8 @@
 .news {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 10fr 2fr;
     grid-gap: 10px;
     background: #edeef0;
     border-radius: 4px;
-}
-
-.post {
-    grid-column: 1 / 2;
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0 0 3px silver;
-   
-    
+    max-width: 100%;
 }

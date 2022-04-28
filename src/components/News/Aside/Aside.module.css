@@ -1,11 +1,11 @@
 .aside {
-    
-    width: 230px;
+    grid-column: 2 / 3;
+    width: 180px;
     max-height: 370px;
     background: #fff;
     box-shadow: 0 0 3px silver;
     border-radius: 4px;
-
+    
     
 }
 

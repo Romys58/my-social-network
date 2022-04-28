@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import state from "./redux/State";
-
+import "./iconsAwesome/fontawesome"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App state={state} />
+    <App state={state}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,14 +1,10 @@
-.add_post {
-    grid-column: 1 / 2;
-    min-height: 10px;
-}
-
 .area {
-    width: 525px;
-    padding: 10px;
+    grid-column: 1 / 2;
+    background: #fff;
     border: 1px solid silver;
     border-radius: 4px;
-    background: #fff;
+    max-width: 100%;
+
 
     overflow: auto;
     outline: none;
