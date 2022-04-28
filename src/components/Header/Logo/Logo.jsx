@@ -1,12 +1,11 @@
 import React from "react";
 import style from "./Logo.module.css";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Logo = () => {
     return(
         <div className={style.logo}>
-                <img className={style.image} src="./logo/logo.svg"/>
-                <h3 className={style.title}>etwork</h3>
+                <FontAwesomeIcon icon="fa-solid fa-hashtag" size="3x" transform="up-14" />
             </div>
     );
 }

@@ -1,11 +1,11 @@
 .friends {
-    grid-column: 1 / 2;
-    max-width: 100%;
+    grid-column: 1 / 3;
+    max-width: 150px;
     height: 150px;
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 0 3px silver;
-    margin-top: -465px;
+
 }
 
 .img {

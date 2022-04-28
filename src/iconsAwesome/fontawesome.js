@@ -5,10 +5,12 @@ import {
     faHeart,
     faComment,
     faShareFromSquare,
-    // Иконки к навигационной панеле REGULAR.
+    // Иконки к навигационной панеле.
     faCircleUser,
     faNewspaper,
     faImage,
+    // Иконка колокольчика в шапке.
+    faBell,
 
 
 } from '@fortawesome/free-regular-svg-icons';
@@ -22,6 +24,12 @@ import {
     faMusic,
     faVideo,
     faGears,
+    // Иконка для логотипа
+    faHashtag,
+    // Иконки в меню на аватарке в профиле.
+    faChartPie,
+    faClockRotateLeft,
+    faBoxArchive,
 } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -40,6 +48,14 @@ library.add(
     faMusic,
     faVideo,
     faGears,
+    // Иконка колокольчика в шапке.
+    faBell,
+    // Иконка для логотипа
+    faHashtag,
+    // Иконки в меню на аватарке в профиле.
+    faChartPie,
+    faClockRotateLeft,
+    faBoxArchive,
 
 );
 

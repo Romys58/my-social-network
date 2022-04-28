@@ -1,25 +1,9 @@
 .notify {
-    position: relative;
-    width: 55px;
-    height: 55px;
     margin-left: 710px;
     margin-top: -85px;
     cursor: pointer;
 }
 
-.notify:hover {
-    background: #edeef0;
-}
-
-.img {
-    margin: 0px auto;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    width: 25px;
-    height: 25px;
+.bell {
+    color: #6e95c2;
 }
