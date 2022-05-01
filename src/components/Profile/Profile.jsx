@@ -9,7 +9,6 @@ import PageFriends from "./PageFriends/PageFriends";
 
 
 
-
 const Profile = (props) => {
     return (
         <div className={style.profile}>
@@ -19,7 +18,6 @@ const Profile = (props) => {
             <Gifts />
             <PageFriends />
             <MyPosts state={props.state.postsData} />
-            
         </div>
     );
 }

@@ -1,7 +1,7 @@
 .profile {
     display: grid;
-    grid-template-columns: repeat(8, 2fr);
-    grid-gap: 10px;
+    grid-template-columns: 4fr 8fr;
+    column-gap: 10px;
     background: #edeef0;
     width: 100%;
 }

@@ -5,47 +5,9 @@
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 0 3px silver;
+
+    margin-top: -110px;
 }
-
-
-/* HEADER POST */
-.header_post {
-    padding: 15px 20px 0px;
-    height: 60px;
-}
-
-.post_img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-.author {
-    font-size: 13px;
-    font-weight: bold;
-
-    margin-left: 60px;
-    margin-top: -50px;
-}
-
-.date {
-    font-size: 10px;
-    margin-left: 60px;
-}
-
-.dots_img,
-.follow_img {
-    float: right;
-    cursor: pointer;
-}
-
-.follow_img {
-    margin-right: 10px;
-}
-
-
-
-
 
 
 /* Content POST */
@@ -61,26 +23,3 @@
     border-radius: 4px;
 }
 
-.buttons_post {
-    padding: 0px 30px 10px;
-    min-width: 200px;
-}
-
-.like_post,
-.comment_post,
-.share_post {
-    display: inline-block;
-    color: #99a2ad;
-    background: #e8eaed;
-    border-radius: 14px;
-    border: none;
-    font-size: 14px;
-    cursor: pointer;
-    padding: 4px 10px 4px;
-}
-
-/* РАССТОЯНИЕ МЕЖДУ КНОПКАМИ */
-.comment_post,
-.share_post {
-    margin-left: 10px;
-}

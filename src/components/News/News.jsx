@@ -9,12 +9,22 @@ import NewsPosts from "./NewsPosts/NewsPosts";
 
 
 const News = (props) => {
+    
+    const newNewsPostData = props.newsPostData.map(postElement => <NewsPosts
+        groupName={postElement.groupName}
+        date={postElement.date}
+        avatar={postElement.avatar}
+        like={postElement.like}
+        comment={postElement.comment}
+        share={postElement.share}
+        views={postElement.views} />)
+
     return (
         <div className={style.news}>
             <AddPost />
             <Stories state={props.state.storiesData} />
             <Aside state={props.state.asideItemData} />
-            <NewsPosts />
+            {newNewsPostData}
         </div>
     )
 }

@@ -5,6 +5,7 @@ import {
     faHeart,
     faComment,
     faShareFromSquare,
+    faEye,
     // Иконки к навигационной панеле.
     faCircleUser,
     faNewspaper,
@@ -39,6 +40,7 @@ library.add(
     faHeart,
     faComment,
     faShareFromSquare,
+    faEye,
     // Иконки к навигационной панеле.
     faCircleUser,
     faNewspaper,
