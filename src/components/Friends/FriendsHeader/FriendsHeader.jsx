@@ -6,7 +6,6 @@ import Tabs from "./Tabs/Tabs";
 
 
 const FriendsHeader = (props) => {
-    debugger;
     const newTabsData =
         props.state.map(tabsElement => <Tabs id={tabsElement.id} counter={tabsElement.counter} text={tabsElement.text} />)
 

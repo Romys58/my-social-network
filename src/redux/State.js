@@ -186,16 +186,106 @@ const state = {
         ],
 
         newsPostData: [
-            { groupName: "localhost", date: "today at 4:22 pm", avatar: "/icons/camera.png", like: "431", comment: "3", share: "41", views: "1675" },
-            { groupName: "Web-page", date: "today at 1:32 pm", avatar: "/icons/camera.png", like: "32", comment: "1", share: "0", views: "114" },
-            { groupName: "It-school", date: "today at 9:58 am", avatar: "/icons/camera.png", like: "54", comment: "0", share: "0", views: "118" },
-            { groupName: "/dev/null", date: "today at 4:15 pm", avatar: "/icons/camera.png", like: "97", comment: "0", share: "3", views: "245" },
-            { groupName: "IT-CAT", date: "today at 1:25 pm", avatar: "/icons/camera.png", like: "56", comment: "13", share: "1", views: "314" },
-            { groupName: "Life-Hack", date: "27 Apr at 17:19 am", avatar: "/icons/camera.png", like: "446", comment: "97", share: "214", views: "2467" },
-            { groupName: "Web-designer", date: "25 Apr at 16:11 am", avatar: "/icons/camera.png", like: "643", comment: "114", share: "35", views: "113" },
-            { groupName: "JavaScript", date: "25 Apr at 15:08 am", avatar: "/icons/camera.png", like: "54", comment: "0", share: "0", views: "466" },
-            { groupName: "It-kamasutra", date: "24 Apr at 12:36 am", avatar: "/icons/camera.png", like: "90", comment: "13", share: "1", views: "97" },
-            { groupName: "It-inkubator", date: "23 Apr at 7:00 pm", avatar: "/icons/camera.png", like: "38", comment: "6", share: "9", views: "418" },
+            {
+                groupName: "localhost",
+                date: "today at 4:22 pm",
+                avatar: "/icons/camera.png",
+                like: "431",
+                comment: "3",
+                share: "41",
+                views: "1675",
+                img: "./contentPhoto/contentPhoto1.jpg"
+            },
+            {
+                groupName: "Web-page",
+                date: "today at 1:32 pm",
+                avatar: "/icons/camera.png",
+                like: "32",
+                comment: "1",
+                share: "0",
+                views: "114",
+                img: "./contentPhoto/contentPhoto2.jpg"
+            },
+            {
+                groupName: "It-school",
+                date: "today at 9:58 am",
+                avatar: "/icons/camera.png",
+                like: "54",
+                comment: "0",
+                share: "0",
+                views: "118",
+                img: "./contentPhoto/contentPhoto3.jpg"
+            },
+            {
+                groupName: "/dev/null",
+                date: "today at 4:15 pm",
+                avatar: "/icons/camera.png",
+                like: "97",
+                comment: "0",
+                share: "3",
+                views: "245",
+                img: "./contentPhoto/contentPhoto4.jpg"
+            },
+            {
+                groupName: "IT-CAT",
+                date: "today at 1:25 pm",
+                avatar: "/icons/camera.png",
+                like: "56",
+                comment: "13",
+                share: "1",
+                views: "314",
+                img: "./contentPhoto/contentPhoto5.jpg"
+            },
+            {
+                groupName: "Life-Hack",
+                date: "27 Apr at 17:19 am",
+                avatar: "/icons/camera.png",
+                like: "446",
+                comment: "97",
+                share: "214",
+                views: "2467",
+                img: "./contentPhoto/contentPhoto6.jpg"
+            },
+            {
+                groupName: "Web-designer",
+                date: "25 Apr at 16:11 am",
+                avatar: "/icons/camera.png",
+                like: "643",
+                comment: "114",
+                share: "35",
+                views: "113",
+                img: "./contentPhoto/contentPhoto7.jpg"
+            },
+            {
+                groupName: "JavaScript",
+                date: "25 Apr at 15:08 am",
+                avatar: "/icons/camera.png",
+                like: "54",
+                comment: "0",
+                share: "0",
+                views: "466",
+                img: "./contentPhoto/contentPhoto8.jpg"
+            },
+            {
+                groupName: "It-kamasutra",
+                date: "24 Apr at 12:36 am",
+                avatar: "/icons/camera.png",
+                like: "90",
+                comment: "13",
+                share: "1",
+                views: "97",
+                img: "./contentPhoto/contentPhoto9.jpg"
+            },
+            {
+                groupName: "It-inkubator",
+                date: "23 Apr at 7:00 pm",
+                avatar: "/icons/camera.png",
+                like: "38",
+                comment: "6",
+                share: "9",
+                views: "418",
+                img: "./contentPhoto/contentPhoto10.jpg"
+            },
         ],
 
     },
