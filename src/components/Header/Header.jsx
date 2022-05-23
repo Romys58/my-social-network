@@ -7,9 +7,21 @@ import Notify from './Notify/Notify';
 const Header = () => {
     return (
         <div className={style.header}>
-            <Search />
-            <Logo />
-            <Notify />
+            <div className={style.header_nav}>
+                
+                    <li className={style.list}><Logo /></li>
+                    
+                    <li className={style.list}><Search /></li>
+                    
+                    <li className={style.list}><Notify /></li>
+                
+                
+                
+                
+                
+                
+                
+            </div>
         </div>
     );
 }

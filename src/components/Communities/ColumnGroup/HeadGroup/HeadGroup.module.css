@@ -1,0 +1,23 @@
+.head_group {
+    max-width: 550px;
+    height: 48px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: space-between;
+    background: #fff;
+    line-height: 15px;
+    padding: 17px 20px 16px;
+    text-align: left;
+}
+
+.head_link {
+    width: 30px;
+    height: 15px;
+    align-items: center;
+    color: #2a5885;
+    display: flex;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: left;
+}

@@ -1,0 +1,45 @@
+.column_group {
+    width: 550px;
+    font-size: 13px;
+}
+
+.body_page {
+    max-width: 550px;
+    min-height: 150px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: #dce1e6 0px 1px 0px 0px;
+    font-size: 14px;
+    margin: 15px 0px 0px;
+}
+
+.head_page {
+    max-width: 550px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 4px 4px 0px 0px;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+.tabs {
+    width: 133px;
+    height: 55px;
+    font-size: 14px;
+    margin: 0px 4px -1px;
+    padding: 14px 6px;
+    text-decoration: none;
+}
+
+.head_button {
+    width: 138px;
+    height: 26px;
+    background-color: #5181b8;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 13px;
+    
+    margin: 12px 10px 0px;
+    padding: 0px 16px; 
+}

@@ -5,28 +5,29 @@
     margin-left: 280px;
 }
 
-.item {
-    display: block;
-    padding: 5px;
-    color: #000;
-    min-width: 151px;
-    min-height: 22px;
-    align-items: center;
-    text-decoration: none;
-}
 
 .item:hover {
     background: #aeb7c21f;
     border-radius: 4px;
 }
 
+
+
 .link {
+    display: flex;
+    color: black;
+    align-items: center;
+    border-radius: 4px;
+    line-height: 15.002px;
+    padding: 7px 6px;
+    font-size: 16px;
     text-decoration: none;
-    color: #000;
-    padding: 0px 10px 0px;
+    
 }
 
 
 .icon {
-    color: #6e95c2;
+    color:#5181b8;
+    font-size: 18px;
+    padding-right: 10px;
 }

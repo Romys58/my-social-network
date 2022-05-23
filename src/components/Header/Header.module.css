@@ -1,5 +1,25 @@
 .header {
-    height: 55px;
+    height: 48px;
     background: #fff;
     grid-column: 1 / 5;
+}
+
+
+
+ .list {
+    display: inline-block;
+    max-height: 48px;
+}
+
+
+
+.header_nav {
+    max-width: 990px;
+    height: 48px;
+
+    font-size: 12.5px;
+    line-height: 14.425px;
+    margin: 0px 264.5px;
+    padding: 0px 15px;
+    text-align: left;
 }

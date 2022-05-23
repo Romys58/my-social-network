@@ -5,7 +5,7 @@ import React from "react";
 const Search = () => {
     return(
         <div className={style.search}>
-            <input placeholder="Search" type="text"></input>
+            <input className={style.input} placeholder="Search" type="text"></input>
         </div>
     )
 }

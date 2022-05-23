@@ -1,31 +1,23 @@
-/* УДАЛЕНИЕ КРЕСТИКА У input */
-input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
-input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration { display: none; }
-
-
-
-
 .search {
-    margin-left: 455px;
-    margin-top: 10px;
+    width: 245px;
+    height: 48px;
+
+
+    
+    display: flex;
+    font-size: 12.5px;
+    line-height: 14.425px;
+    padding: 0px 15px 0px 0px;
 }
 
-.search input {
-    height: 35px;
-    width: 200px;
-
-    background: #edeef0;
-    color: #a4a4a4;
-
-    border: none;
+.input {
+    height: 32px;
+    width: 230px;
+    background-color: #edeef0;
+    background-position: 10px 50%;
     border-radius: 8px;
-
-    outline: none;
-    padding: 0 0 0 34px;
-    
-    font-size: 16px;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 28px;
+    padding: 0px 0px 0px 34px;
 }
